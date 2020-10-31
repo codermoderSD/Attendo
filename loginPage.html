@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.jpeg" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Attendo</title>
+
+    <style>
+        form img {
+            width: 35%;
+        }
+
+        body {
+            background-color: #123255;
+        }
+
+        .d1 {
+            background-color: #191919;
+            margin-top: 1.5rem;
+            border-radius: 10px;
+            width: 600px;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            vertical-align: middle;
+        }
+
+        .d2 input {
+            border: 0;
+            text-align: center;
+            border: 2px solid #81bbd4;
+            outline: none;
+        }
+
+        .d2 small {
+            font-size: 0.6rem;
+            color: rgb(160, 160, 160);
+        }
+
+        .inputs {
+            border-radius: 20px;
+            margin: auto;
+            width: 400px;
+            outline: none;
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="text-center">
+    <div class="container d1 text-light">
+        <form class="form-signin">
+            <a href="mainPage.html"><img src=" logo.jpeg" alt=""></a>
+            <div class="form-group d2">
+                <label for="formGroupExampleInput2">Username</label>
+                <input type="text" class="form-control text-light bg-dark inputs" id="formGroupExampleInput2">
+                <small id="emailHelp" class="form-text">Enter valid username</small>
+            </div>
+            <div class="form-group d2">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control bg-dark text-light inputs" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group d2">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control bg-dark text-light inputs" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-dark">Sign In</button>
+            <p class="mt-3 mb-3 text-muted">© 2020-2021</p>
+        </form>
+    </div>
+</body>
+
+</html>
